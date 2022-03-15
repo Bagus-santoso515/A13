@@ -1,200 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project A13</title>
-  <link rel="stylesheet" href="styles/style.css" type="text/css" />
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
-	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">	
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project A13</title>
+    <link rel="stylesheet" href="styles/style.css" type="text/css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic" rel="stylesheet" type="text/css" />
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
   </head>
   <body>
-    
-  <div id="page">
-    
-  </div><header>
-    <div class="menu-block">
-    
-      <div class="container">
-        
-        <div class="logo">
-          <img class="logobrand" src="logo.png">
+    <div id="page"></div>
+    <header>
+      <div class="menu-block">
+        <div class="container">
+          <div class="logo">
+            <img class="logobrand" src="assets/logo.png" />
+          </div>
+          <div class="logo pull-left">
+            <a href="index.html"><span class="b1">CODE</span><span class="b3">PATCH</span></a>
+          </div>
+          <div id="search-form" class="pull-right">
+            <form method="get" action="#">
+              <input type="text" name="Search" value="Search" onFocus="if (this.value == 'Search') this.value = '';" onBlur="if (this.value == '') this.value = 'Search';" />
+            </form>
+          </div>
+          <div class="pull-right">
+            <nav class="navmenu center">
+              <input type="checkbox" id="check" />
+              <label for="check" class="checkbtn">
+                <span class="fas fa-bars"></span>
+              </label>
+              <ul>
+                <li class="active"><a href="#produk">Produk</a></li>
+                <li><a href="#program">Program</a></li>
+                <li><a href="#beasiswa">Beasiswa</a></li>
+                <li><a href="#tutorial">Tutorial</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+              </ul>
+            </nav>
+            <section></section>
+          </div>
         </div>
-        <div class="logo pull-left">
-          <a href="index.html" ><span class="b1">CODE</span><span class="b3">PATCH</span></a>
-        </div>
-        <div id="search-form" class="pull-right">
-          <form method="get" action="#">
-            <input type="text" name="Search" value="Search" onFocus="if (this.value == 'Search') this.value = '';" onBlur="if (this.value == '') this.value = 'Search';" />
-          </form>
-        </div>
-        <div class="pull-right">
-          <nav class="navmenu center">
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-              <span class="fas fa-bars"></span>
-            </label>
-            <ul>
-              <li class="active"><a href="#produk" >Produk</a></li>
-              <li ><a href="#program" >Program</a></li>
-              <li ><a href="#beasiswa" >Beasiswa</a></li>
-              <li ><a href="#tutorial" >Tutorial</a></li>
-              <li ><a href="#contacts" >Contacts</a></li>
-            </ul>
-          </nav>
-          <section></section>
+      </div>
+    </header>
+    <div class="body1">
+      <div class="top-wrapper">
+        <div class="container1">
+          <img src="assets/img1.png" />
+          <div class="list-wrapper">
+            <h1>CODE PATCH</h1>
+            <p>Tempat belajar budidaya kode (coding) dengan tutorial yang mudah dipahami.</p>
+          </div>
+          <div class="btn-wrapper">
+            <a href="#" class="btn-login">Mulai Belajar</a>
+            <a href="#" class="btn-join">Join Newsletter</a>
+          </div>
         </div>
       </div>
     </div>
-  </header>
-  <div class="body1">
-		<div class="top-wrapper">
-			<div class="container1">
-				<img src="asset/img1.png">
-				<div class="list-wrapper">
-					<h1>Petani Code</h1>
-					<p>Tempat belajar budidaya kode (coding) dengan tutorial yang mudah dipahami.</p>
-				</div>
-				<div class="btn-wrapper">
-					<a href="#" class="btn-login">Mulai Belajar</a>
-					<a href="#" class="btn-join">Join Newsletter</a>
-				</div>
-			</div>
-		</div>
-	</div>
-    
-   <div class="article-container">
-     <div class="header-article">
-       <h2>Artikel berdasarkan Kategori</h2>
-       <h4>Baca Artikel yang sesuai dengan minatmu</h4>
-     </div>
-     <div class="article-row">
-       <div class="article">
-         <div class="header-list">
-           <h3>Pemrograman Web</h3>
-         </div>
-         <div class="list-article">
-           <a href="#">
+    <!-- body 2 start-->
+    <div class="lesson-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>Make your choice and take the course you want!</h2>
+        </div>
+        <div class="lessons">
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="assets/undraw_web_development_0l6v.svg" alt="web development" />
+              <a href="#">Web Development</a>
+            </div>
+            <p class="txt-contents">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores corporis eum earum, non corrupti illo aperiam unde laborum velit ullam quo odit alias!</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="assets/undraw_mobile_development_re_wwsn.svg" alt="mobile development" />
+              <a href="#">Mobile Development</a>
+            </div>
+            <p class="txt-contents">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores corporis eum earum, non corrupti illo aperiam unde laborum velit ullam quo odit alias!</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="assets/undraw_javascript_frameworks_-8-qpc.svg" alt="javascript framework" />
+              <a href="#">Javascript Framework</a>
+            </div>
+            <p class="txt-contents">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores corporis eum earum, non corrupti illo aperiam unde laborum velit ullam quo odit alias!</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="assets/undraw_react_y-7-wq.svg" alt="react" />
+              <a href="#">React</a>
+            </div>
+            <p class="txt-contents">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores corporis eum earum, non corrupti illo aperiam unde laborum velit ullam quo odit alias!</p>
+          </div>
+        </div>
+        <div class="pagination">
+          <a href="#">&laquo;</a>
+          <a href="#" class="active">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">5</a>
+          <a href="#">6</a>
+          <a href="#">&raquo;</a>
+        </div>
+      </div>
+    </div>
+    <div class="message-wrapper">
+      <div class="wrapper">
+        <div class="col-message">
+          <h3>Ingin mendapatkan info dan tips belajar coding dari Codepatch langsung ke email kamu?</h3>
+          <p>Nama</p>
+          <input class="type" type="text" value="Nama panggilan" />
+          <p>Email</p>
+          <input class="type" type="text" value="Alamat email" />
+          <input class="btn-submit" type="submit" value="Ya, Saya Mau!" />
+        </div>
+        <div class="col-message">
+          <img src="assets/undraw_newsletter_re_wrob.svg" alt="Send Message" />
+        </div>
+      </div>
+    </div>
+    <!-- body 2 end -->
+    <div class="article-container">
+      <div class="header-article">
+        <h2>Artikel berdasarkan Kategori</h2>
+        <h4>Baca Artikel yang sesuai dengan minatmu</h4>
+      </div>
+      <div class="article-row">
+        <div class="article">
+          <div class="header-list">
+            <h3>Pemrograman Web</h3>
+          </div>
+          <div class="list-article">
+            <a href="#">
               <div class="article-item">
                 <p>HTML : Pengertian, Fungsi dan Cara Kerja</p>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" />
               </div>
-           </a>          
-           <a href="#">
-            <div class="article-item">
-              <p>CSS : Pengertian, Fungsi dan Cara Kerja</p>
-              <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg">
-            </div>
-           </a>         
-          <a href="#">
-            <div class="article-item">
-              <p>Javascript : Pengertian, Fungsi dan Cara Kerja</p>
-              <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg">
-            </div>
-          </a>          
-          <a href="#">
-            <div class="article-item">
-              <p>PHP : Pengertian, Fungsi dan Cara Kerja</p>
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Antu_php.svg/512px-Antu_php.svg.png">
-            </div>
-          </a>
-          <a href="#">
-            <div class="article-item">
-              <p>Framework pada Pemrograman Web</p>
-              <img src="https://upload.wikimedia.org/wikipedia/commons/5/52/Codeigniter4logo-thumb.png">
-            </div>
-          </a>
-         </div>
-       </div>
-       <div class="article">
-        <div class="header-list">
-          <h3>Pemrograman Desktop</h3>
+            </a>
+            <a href="#">
+              <div class="article-item">
+                <p>CSS : Pengertian, Fungsi dan Cara Kerja</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" />
+              </div>
+            </a>
+            <a href="#">
+              <div class="article-item">
+                <p>Javascript : Pengertian, Fungsi dan Cara Kerja</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" />
+              </div>
+            </a>
+            <a href="#">
+              <div class="article-item">
+                <p>PHP : Pengertian, Fungsi dan Cara Kerja</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Antu_php.svg/512px-Antu_php.svg.png" />
+              </div>
+            </a>
+            <a href="#">
+              <div class="article-item">
+                <p>Framework pada Pemrograman Web</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/52/Codeigniter4logo-thumb.png" />
+              </div>
+            </a>
+          </div>
         </div>
-        <div class="list-article">
-          <a href="#">
-            <div class="article-item">
-              <p>Pemrograman Desktop menggunakan C# di Visual Studio</p>
-              <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/C_Sharp_wordmark.svg">
-            </div>
-          </a>
-          <a href="#">
-            <div class="article-item">
-            <p>Pemrograman Desktop menggunakan Java</p>
-            <img src="https://logoeps.com/wp-content/uploads/2011/06/java-logo-vector.png">
+        <div class="article">
+          <div class="header-list">
+            <h3>Pemrograman Desktop</h3>
           </div>
-          </a>
-         <a href="#">
-          <div class="article-item">
-            <p>#3 Persiapan Pemrograman Desktop menggunakan Flutter</p>
-            <img src="https://logowik.com/content/uploads/images/flutter5786.jpg">
+          <div class="list-article">
+            <a href="#">
+              <div class="article-item">
+                <p>Pemrograman Desktop menggunakan C# di Visual Studio</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/C_Sharp_wordmark.svg" />
+              </div>
+            </a>
+            <a href="#">
+              <div class="article-item">
+                <p>Pemrograman Desktop menggunakan Java</p>
+                <img src="https://logoeps.com/wp-content/uploads/2011/06/java-logo-vector.png" />
+              </div>
+            </a>
+            <a href="#">
+              <div class="article-item">
+                <p>#3 Persiapan Pemrograman Desktop menggunakan Flutter</p>
+                <img src="https://logowik.com/content/uploads/images/flutter5786.jpg" />
+              </div>
+            </a>
+            <a href="#">
+              <div class="article-item">
+                <p>Mengenal Bahasa Pemrograman C++</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png" />
+              </div>
+            </a>
+            <a href="#">
+              <div class="article-item">
+                <p>Pemrograman Desktop menggunakan Perl</p>
+                <img src="https://cdn.worldvectorlogo.com/logos/perl-programming-language.svg" />
+              </div>
+            </a>
           </div>
-         </a>
-         <a href="#">
-          <div class="article-item">
-            <p>Mengenal Bahasa Pemrograman C++</p>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png">
+        </div>
+        <div class="article">
+          <div class="header-list">
+            <h3>Pemrograman Mobile</h3>
           </div>
-         </a>
-         <a href="#">
-          <div class="article-item">
-            <p>Pemrograman Desktop menggunakan Perl</p>
-            <img src="https://cdn.worldvectorlogo.com/logos/perl-programming-language.svg">
+          <div class="list-article">
+            <a href="#">
+              <div class="article-item">
+                <p>#1 Pemrograman Android menggunakan Android Studio</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Android_Studio_Icon_3.6.svg" />
+              </div>
+            </a>
+            <a href="#">
+              <div class="article-item">
+                <p>#4 Flutter Android: Memahami Struktur Dasar Project Aplikasi Flutter</p>
+                <img src="https://logowik.com/content/uploads/images/flutter5786.jpg" />
+              </div>
+            </a>
+            <a href="#">
+              <div class="article-item">
+                <p>5 Tips Menjadikan Android Studio semakin Cepat dan Ringan</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Android_Studio_Icon_3.6.svg" />
+              </div>
+            </a>
+            <a href="#">
+              <div class="article-item">
+                <p>Cara Install Android Studio di OS Linux</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Android_Studio_Icon_3.6.svg" />
+              </div>
+            </a>
+            <a href="#">
+              <div class="article-item">
+                <p>Pemrograman Android dengan bahasa Pemrograman Kotlin</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" />
+              </div>
+            </a>
           </div>
-         </a>
         </div>
       </div>
-      <div class="article">
-        <div class="header-list">
-          <h3>Pemrograman Mobile</h3>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+      <div class="container2">
+        <div class="wrap">
+          <div class="col">
+            <img class="gb" src="gb1.png" alt="" />
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores qui facilis aspernatur quae saepe ex</p>
+          </div>
         </div>
-        <div class="list-article">
-          <a href="#">
-            <div class="article-item">
-              <p>#1 Pemrograman Android menggunakan Android Studio</p>
-              <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Android_Studio_Icon_3.6.svg">
-            </div>
-          </a>
-          <a href="#">
-            <div class="article-item">
-              <p>#4 Flutter Android: Memahami Struktur Dasar Project Aplikasi Flutter</p>
-              <img src="https://logowik.com/content/uploads/images/flutter5786.jpg">
-            </div>
-          </a>
-          <a href="#">
-            <div class="article-item">
-              <p>5 Tips Menjadikan Android Studio semakin Cepat dan Ringan</p>
-              <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Android_Studio_Icon_3.6.svg">
-            </div>
-          </a>
-          <a href="#">
-            <div class="article-item">
-              <p>Cara Install Android Studio di OS Linux</p>
-              <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Android_Studio_Icon_3.6.svg">
-            </div>
-          </a>
-          <a href="#">
-            <div class="article-item">
-              <p>Pemrograman Android dengan bahasa Pemrograman Kotlin</p>
-              <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png">
-            </div>
-          </a>
-        </div>
-      </div>
-     </div>
-   </div> 
-      <!-- footer -->
-      <div class="footer">
-        <div class="container">
-            <div class="wrap">
-                <div class="col">
-                  <img class="gb" src="gb1.png" alt="">
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores qui facilis aspernatur quae saepe ex</p>
-                </div>
-            </div>
         <div class="col">
-          <h1>Nama Web</h1>
+          <h1>Code Patch</h1>
           <ul>
             <li>Tentang Kami</li>
             <li>Misi</li>
@@ -219,9 +278,8 @@
         </div>
       </div>
       <div class="clear"></div>
-      <P class="copyright">© 2022, A13</P>
-      </div>
-      <!-- end footer -->
+      <p class="copyright">© 2022 <span>Code Patch .</span> Created with ❤️ by <span>Team A13</span></p>
+    </div>
+    <!-- end footer -->
   </body>
 </html>
-
